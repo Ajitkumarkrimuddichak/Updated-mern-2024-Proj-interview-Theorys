@@ -1,0 +1,14 @@
+[
+  {
+    "userImage": "url_to_image.jpg",
+    "userName": "John Doe",
+    "stars": 5,
+    "message": "Excellent service, highly recommend!"
+  },
+  {
+    "userImage": "url_to_image2.jpg",
+    "userName": "Jane Smith",
+    "stars": 4,
+    "message": "Very good, but there is room for improvement."
+  }
+]

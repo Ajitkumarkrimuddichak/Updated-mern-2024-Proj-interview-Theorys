@@ -1,0 +1,8 @@
+{
+  "app": {
+    "port": 3001
+  },
+  "db": {
+    "name": "myapp_dev"
+  }
+}

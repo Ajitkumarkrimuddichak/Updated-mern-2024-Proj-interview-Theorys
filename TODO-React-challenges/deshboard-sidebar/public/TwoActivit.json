@@ -1,0 +1,28 @@
+{
+  "activity": [
+    { "day": 5, "value": 9000 },
+    { "day": 6, "value": 3000 },
+    { "day": 7, "value": 4000 },
+    { "day": 8, "value": 5000 },
+    { "day": 9, "value": 3000 },
+    { "day": 10, "value": 5000 },
+    { "day": 11, "value": 4000 },
+    { "day": 12, "value": 4000 },
+    { "day": 13, "value": 3000 },
+    { "day": 14, "value": 5000 },
+    { "day": 15, "value": 4000 },
+    { "day": 16, "value": 4000 },
+    { "day": 17, "value": 6000 },
+    { "day": 18, "value": 8000 },
+    { "day": 19, "value": 10000 },
+    { "day": 20, "value": 12000 },
+    { "day": 21, "value": 15000 },
+    { "day": 22, "value": 12000 },
+    { "day": 23, "value": 10000 },
+    { "day": 24, "value": 8000 },
+    { "day": 25, "value": 10000 },
+    { "day": 26, "value": 7000 },
+    { "day": 27, "value": 8000 }
+  ],
+  "interval": "Weekly"
+}

@@ -1,0 +1,31 @@
+{
+  "totalOrders": {
+    "value": 75,
+    "change": "up",
+    "changePercentage": 3
+  },
+  "totalDelivered": {
+    "value": 70,
+    "change": "down",
+    "changePercentage": 3
+  },
+  "totalCancelled": {
+    "value": 5,
+    "change": "up",
+    "changePercentage": 3
+  },
+  "totalRevenue": {
+    "value": 12000,
+    "change": "down",
+    "changePercentage": 3
+  },
+  "netProfit": {
+    "value": 6759.25,
+    "change": "up",
+    "changePercentage": 3
+  },
+  "goalCompletion": {
+    "percentage": 70,
+    "note": "The values here have been rounded off."
+  }
+}

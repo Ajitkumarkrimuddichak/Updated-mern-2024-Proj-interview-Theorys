@@ -1,0 +1,21 @@
+Backend Create Report/API Documentation generation with postman
+:- API jobhi publise karana hai online to usi ke bare me likhana hai ki kya karata hai 
+mera API. or mera koi bhi online platform pe rakha hai joki koi bhi used kar sake. 
+Used CMD Only  
+1). npm install -g newman
+- newman -v
+- Post man open then select folder and Export
+- Create folder name 
+- CRUD Operation collection name
+- Check Folder in file Create
+- Test Case Run command :- newman run Collection name
+i) First Aproach :- newman run Report-generate
+- Show Report CMD 
+ii) Report Save karane ke liye New packeg used
+- npm install -g newman-reporter-html
+- Second Aproach Run :- newman run Report-generate -r html
+- Check folder and open file
+iii) Coler full Report/test Case Generate using Packeg 
+- npm install -g newman-reporter-htmlextra
+- Third Aproach Run :- newman run Report-generate -r htmlextra
+- Check folder and open file

@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Goals",
+    "icon": "goal-icon",
+    "link": "/goals"
+  },
+  {
+    "title": "Popular Dishes",
+    "icon": "popular-dishes-icon",
+    "link": "/popular-dishes"
+  },
+  {
+    "title": "Menus",
+    "icon": "menus-icon",
+    "link": "/menus"
+  }
+]

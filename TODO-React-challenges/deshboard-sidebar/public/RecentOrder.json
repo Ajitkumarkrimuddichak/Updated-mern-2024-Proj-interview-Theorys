@@ -1,0 +1,32 @@
+{
+  "recentOrders": [
+    {
+      "customerImage": "https://example.com/images/customer1.jpg",
+      "customerName": "John Doe",
+      "orderNumber": "ORD12345",
+      "amount": 1245,
+      "status": "delivered"
+    },
+    {
+      "customerImage": "https://example.com/images/customer2.jpg",
+      "customerName": "Jane Smith",
+      "orderNumber": "ORD12346",
+      "amount": 678,
+      "status": "pending"
+    },
+    {
+      "customerImage": "https://example.com/images/customer3.jpg",
+      "customerName": "Alice Johnson",
+      "orderNumber": "ORD12347",
+      "amount": 345,
+      "status": "delivered"
+    },
+    {
+      "customerImage": "https://example.com/images/customer4.jpg",
+      "customerName": "Bob Brown",
+      "orderNumber": "ORD12348",
+      "amount": 980,
+      "status": "pending"
+    }
+  ]
+}
