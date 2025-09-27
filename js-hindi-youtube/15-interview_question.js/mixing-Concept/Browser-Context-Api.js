@@ -1,4 +1,4 @@
-/*What is Browser context API :- The Browser context API return Three things
+/*What happens when JS code run in the browser ? :- Explaine Execution context and how memory is managed 
 1) Window 
 2) Stack
 
