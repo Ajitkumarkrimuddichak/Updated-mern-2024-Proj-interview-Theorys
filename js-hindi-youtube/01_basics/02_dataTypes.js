@@ -113,8 +113,31 @@ console.log(person.address.city); // Output: "Mumbai"
 //5. Ternary Operators :- ? : ;
 //6. Bitwise Operators :- & | ^ ~ << >> ( Bitwise NOT (~))
 
-// What is Control Instruction ?
+/* What is Control Instruction/Statements ? :- Control statements in javascript are instruction 
+that determine the flow of execution of code, whether it
+should be executed, skipped or repeated.
+*/
 // i) Decision control Instruction
 // ii) Iterative control Instruction / Loops :- A loop is used to excuite a statement block depending on a condition
 // iii) Switch case control Instruction
 // iv) Goto control Instruction
+
+
+//// ********************************* ////
+/* Note :- JS me Veriable Declared 4 Types se kar sakate hai
+
+var a = 5;
+let b = 6;
+const c = 7;
+d = 8; //Dynamic typed language me without keyword ke bhi variable declare kar sakate hai js me. jis type ke value assigne karoge usi type ke keyword ko automatic lega.
+// int e = 20;// static typed language me aise declare karate hai jaise c, c++, java etc pahale batana hoga keyword ko.
+function f1() {
+  var x = 10;
+  y = 20; // Without Keyword used kiye huye declared karate hai to global veriable mana jata hai js me.
+  console.log(x, y);
+}
+f1();
+console.log("This Variable is Global =", y);
+*/
+
+
