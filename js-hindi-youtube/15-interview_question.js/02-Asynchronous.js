@@ -1,3 +1,7 @@
+/***** Callback function khud asynchronous nahi banata,
+asynchronous JavaScript browser ke Web APIs + callback function + event loop ke combination se achieve hota hai.
+******/
+
 /**** What is Asynchronous in JS :- Asynchronous programming allows tasks to be executed 
 without blocking the main thread. This is crucial for tasks like network requests, 
 reading files, or timers, where waiting for the task to complete synchronously would
