@@ -1,3 +1,7 @@
+/****Callback function khud asynchronous nahi banata,
+asynchronous JavaScript browser ke Web APIs + callback function + event loop ke combination se achieve hota hai.
+****/
+
 /* What is CallBack Function :- A callback function is a passed into another
 function as an argument.
 
