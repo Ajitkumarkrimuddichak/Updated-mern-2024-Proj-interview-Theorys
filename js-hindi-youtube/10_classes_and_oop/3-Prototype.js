@@ -62,3 +62,27 @@ String.prototype.trueLength = function () {
 anotherUsername.trueLength();
 "Ajit".trueLength();
 "patnabihar".trueLength();*/
+
+
+//******* New updated code ***************//
+/*
+What Are Prototypes in JavaScript? :- Prototype is an object in JavaScript that is used as a blueprint from which other objects inherit properties and methods.
+Why Prototype? :- To share methods across many objects without copying them again and again.
+
+Ex :- Prototype with Function Constructor
+function Person(name, age) {
+  this.name = name;
+  this.age = age;
+}
+
+// Adding method using prototype
+Person.prototype.sayHello = function () {
+  console.log("Hello, my name is " + this.name);
+};
+
+const p1 = new Person("Ajit", 25);
+const p2 = new Person("Kumar", 30);
+
+p1.sayHello(); // Hello, my name is Ajit
+p2.sayHello(); // Hello, my name is Kumar
+*/
