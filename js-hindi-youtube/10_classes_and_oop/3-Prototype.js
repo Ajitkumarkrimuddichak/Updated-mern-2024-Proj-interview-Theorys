@@ -86,3 +86,33 @@ const p2 = new Person("Kumar", 30);
 p1.sayHello(); // Hello, my name is Ajit
 p2.sayHello(); // Hello, my name is Kumar
 */
+
+
+/** new concept *************************************/
+/*
+What is Prototype Inheritance :- One object can inherit (use) properties/methods from another object's prototype.
+Example :-
+*/
+// Parent constructor
+function Animal(name) {
+  this.name = name;
+}
+Animal.prototype.speak = function () {
+  console.log(this.name + " makes a sound");
+};
+// Child constructor
+function Dog(name, breed) {
+  Animal.call(this, name); // inherit parent properties
+  this.breed = breed;
+}
+// Inherit prototype
+Dog.prototype = Object.create(Animal.prototype);
+// Fix constructor pointer
+Dog.prototype.constructor = Dog;
+// Add child method
+Dog.prototype.bark = function () {
+  console.log(this.name + " barks");
+};
+const d = new Dog("Tommy", "Pug");
+d.speak(); // Tommy makes a sound  (inherited from Animal)
+d.bark();  // Tommy barks          (own method)
