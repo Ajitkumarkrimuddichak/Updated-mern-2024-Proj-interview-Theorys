@@ -1,3 +1,10 @@
+// Give me output [ 1, 2, 3 ]
+/*
+let Arr = [1,[2,[3]]];
+let result = Arr.flat(Infinity); 
+console.log(result);
+*/
+
 //(1) Find the Array of Max And Min value Without Method used
 /*var Arr = [1, 5, 4, 3, 8, 10];
 var max = Arr[0];
