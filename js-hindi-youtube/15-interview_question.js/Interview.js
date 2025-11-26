@@ -1,4 +1,3 @@
-
 /*
 (1) What is Event Delegation :- Event Delegation is a technique in JavaScript where you attach a single event listener to a parent element instead of 
 adding separate listeners to multiple child elements. 
@@ -69,3 +68,4 @@ normal users cannot.
 - Map and Set
 - Generators (function* and yield)
 - New String, Number, and Math Methods
+*/
