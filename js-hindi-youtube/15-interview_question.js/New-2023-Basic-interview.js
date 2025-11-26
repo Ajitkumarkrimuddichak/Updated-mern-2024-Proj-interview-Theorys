@@ -1,3 +1,17 @@
+// Find the Biggest word in string
+/*
+let Str = "ajit kumar patna krimuddin";
+let words = Str.split(" ");
+let largest = words[0];
+
+for (let i = 1; i < words.length; i++) {
+    if (words[i].length > largest.length) {
+      largest = words[i];
+    }
+  }
+console.log("Largest word is:", largest);
+*/
+
 // Second largest number find in Array
 /*
 function SecondLargest(arr){
@@ -9,7 +23,7 @@ let Res = SecondLargest(Arr);
 console.log(Res);  
 */
 
-// Give me output [ 1, 2, 3 ]
+// Give the output [ 1, 2, 3 ]
 /*
 let Arr = [1,[2,[3]]];
 let result = Arr.flat(Infinity); 
