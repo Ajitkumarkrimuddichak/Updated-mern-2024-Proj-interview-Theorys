@@ -1057,24 +1057,6 @@ console.log(myArray);
 var arr = [2, 5, 3, 1, 6];
 console.log(MissingNuber(arr));*/
 
-//(or) Find Missing number in Array Output number Check value of odd or Even number
-// function MissingNuber(array) {
-//   var len = array.length;
-//   var total = ((len + 2) * (len + 1)) / 2;
-//   for (var i = 0; i < len; i++) {
-//     total = total - arr[i];
-//   }
-//   return total;
-// }
-// var arr = [2, 5, 4, 1, 6];
-// var returnvalue = MissingNuber(arr);
-// console.log(`This Number Missing = ${returnvalue}`);
-// if (returnvalue % 2 == 0) {
-//   console.log(`This Number is Even = ${returnvalue}`);
-// } else {
-//   console.log(`This Number is Odd = ${returnvalue}`);
-// }
-
 //(26) Find Duplicate value in array without Method used
 /*let array = [6, 9, 15, 6, 13, 9, 11, 15];
 let index = 0,
@@ -1094,39 +1076,20 @@ function DuplicatesValue(arr) {
 var newAr = DuplicatesValue(array);
 console.log(newAr);*/
 
-//(or) Find Duplicate value in array without Method used and Even or Odd number find
-// let array = [6, 9, 15, 6, 13, 9, 11, 15];
-// let index = 0,
-//   newArr = [];
-// const len = array.length;
-// function DuplicatesValue(arr) {
-//   for (let i = 0; i < len - 1; i++) {
-//     for (let j = i + 1; j < len; j++) {
-//       if (arr[i] === arr[j]) {
-//         newArr[index] = arr[i];
-//         index++;
-//       }
-//     }
-//   }
-//   return newArr;
-// }
-// var newAr = DuplicatesValue(array);
-// console.log(newAr);
-// const result = [];
-// for (let i = 0; i < newAr.length; i++) {
-//   if (newAr[i] % 2 === 0) {
-//     result.push("Even Number = " + newAr[i]);
-//   } else {
-//     result.push("Odd Number = " + newAr[i]);
-//   }
-// }
-// console.log(result);
-
 //(or) Find Duplicate value in Array using Method
 // function duplicates(arr) {
 //   return [...new Set(arr.filter((e, i, a) => a.indexOf(e) !== i))];
 // }
 // console.log(duplicates([2, 3, 5, 2, 4, 3, 11]));
+
+//(** vvvvv**) Remoded duplicates value in array
+ /*
+ function duplicates(arr) {
+  return [...new Set(arr.filter((e) => e))];
+}
+console.log(duplicates([2, 3, 5, 2, 4, 3, 11]));
+*/
+
 
 //(27) Find Add an element to end of Array without Method Used
 // var arr = [1, 2];
