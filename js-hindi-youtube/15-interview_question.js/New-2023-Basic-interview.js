@@ -1034,22 +1034,16 @@ for (let i = 0; i < array.length; i++) {
 console.log(array);
 */
 
-//(iii) replace value of Index number method used
-/*const array = [10, 20, 30, 40, 50];
-const replacedArray = array.map((value) => {
-  if (value === 20) return 25;
-  if (value === 40) return 45;
-  return value;
-});
-console.log(replacedArray); // [10, 25, 30, 45, 50]*/
-
-//(iv) Delete Array of Element in particular index number
-/*const myArray = [10, 20, 30, 40, 50];
-const indexToRemove = 2; // Index of the element you want to remove
-if (indexToRemove >= 0 && indexToRemove < myArray.length) {
-  myArray.splice(indexToRemove, 1);
+//(iii) Delete Array of Element in particular index number
+/*
+let myArray = [10, 20, 30, 40, 50];
+let indexToRemove = 2; 
+for (let i = indexToRemove; i < myArray.length - 1; i++) {
+  myArray[i] = myArray[i + 1];
 }
-console.log(myArray); // [10, 20, 40, 50]*/
+myArray.length = myArray.length - 1;
+console.log(myArray);
+*/
 
 //(25) Find Missing number in Array
 /*function MissingNuber(array) {
