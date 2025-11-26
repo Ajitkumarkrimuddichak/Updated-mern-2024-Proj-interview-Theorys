@@ -1,3 +1,14 @@
+// Second largest number find in Array
+/*
+function SecondLargest(arr){
+  arr.sort((a,b) => b - a);
+  return arr[1];          
+}
+let Arr = [10,20,50,80,40,60];
+let Res = SecondLargest(Arr);
+console.log(Res);  
+*/
+
 // Give me output [ 1, 2, 3 ]
 /*
 let Arr = [1,[2,[3]]];
