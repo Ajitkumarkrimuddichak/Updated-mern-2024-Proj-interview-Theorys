@@ -1021,15 +1021,18 @@ const res = array.map((value, index) => index);
 console.log(res); // [0, 1, 2]*/
 
 //(ii) Updatae value  First or Last Element of Array without method used
-/*const array = [10, 20, 30, 40, 50];
+/*
+let array = [10, 20, 30, 40, 50];
 for (let i = 0; i < array.length; i++) {
-  if (array[i] === 20) {
-    array[i] = 25;
-  } else if (array[i] === 40) {
-    array[i] = 45;
+  if (i === 0) {
+    array[i] = 111;       
+  }
+  else if (i === array.length - 1) {
+    array[i] = 999; 
   }
 }
-console.log(array); // [10, 25, 30, 45, 50]*/
+console.log(array);
+*/
 
 //(iii) replace value of Index number method used
 /*const array = [10, 20, 30, 40, 50];
