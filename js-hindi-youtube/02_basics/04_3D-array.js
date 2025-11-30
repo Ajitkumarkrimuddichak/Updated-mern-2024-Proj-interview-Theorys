@@ -1,41 +1,72 @@
-// Initializing a 3D Array :-  //Example code :-
+// Initializing a 3D Array :-  
+// Example code :-
 
-// Initialize dimensions
-const depth = 3; // Number of 2D arrays
-const rows = 2; // Number of rows in each 2D array
-const cols = 5; // Number of columns in each row
- 
-// Create the 3D array
-let array3D = new Array(depth);
-for (let i = 0; i < depth; i++) {
-  array3D[i] = new Array(rows);
-  for (let j = 0; j < rows; j++) {
-    array3D[i][j] = new Array(cols).fill(0); // Initialize all elements to 0
-    //console.log(array3D[i][j]);
-  }
-}
-
-// Fill the array with some values
-for (let i = 0; i < depth; i++) {
-  for (let j = 0; j < rows; j++) {
-    for (let k = 0; k < cols; k++) {
-      array3D[i][j][k] = i * 100 + j * 10 + k; // Just an example formula
-    }
-  }
-}
-//console.log(array3D);
-
-// Access a specific element
+// Create an empty 3D array
 /*
-let specificValue = array3D[1][2][3];
-console.log(`The value at array3D[1][2][3] is: ${specificValue}`);
+let array3D = [
+  [[1, 1, 1],[2, 2, 2]],
+  [[3, 3, 3],[4, 4, 4]]
+];
+console.log(array3D);
 */
 
-// Print all values
-for (let i = 0; i < depth; i++) {
+//Initializing a 3D Array
+/*
+let layers = 3;
+let rows = 3;
+let cols = 3;
+let array3D = new Array(layers);
+
+for (let i = 0; i < layers; i++) {
+  array3D[i] = new Array(rows);
   for (let j = 0; j < rows; j++) {
+    array3D[i][j] = new Array(cols).fill(0);
+  }
+}
+console.log(array3D);
+*/
+
+//(or)
+/*
+let layers = 3;
+let rows = 3;
+let cols = 3;
+let array3D = [];
+
+for (let i = 0; i < layers; i++) {
+  array3D[i] = [];
+  for (let j = 0; j < rows; j++) {
+    array3D[i][j] = [];
     for (let k = 0; k < cols; k++) {
-      console.log(`array3D[${i}][${j}][${k}] = ${array3D[i][j][k]}`);
+      array3D[i][j][k] = 0;
     }
   }
 }
+console.log(array3D);
+*/
+
+// Accessing elements in 3D Array
+let arr3D = [
+  [[1, 2, 3],
+  [4, 5, 6]],
+  [[7, 8, 9],
+  [10, 11, 12]]
+];
+let element = arr3D[1][0][2]; // layer-1 , row-0 , col-2
+console.log(element); // 9
+
+// (or) Modifying Elements in 3D Array
+arr3D[0][1][2] = 99; // change value
+console.log(arr3D[0][1][2]);
+console.log(arr3D);
+
+// (or) Iterating Over a 3D Array (Triple Loop)
+for (let i = 0; i < arr3D.length; i++) {
+  for (let j = 0; j < arr3D[i].length; j++) {
+    for (let k = 0; k < arr3D[i][j].length; k++) {
+      console.log(arr3D[i][j][k]);
+    }
+  }
+}
+
+
