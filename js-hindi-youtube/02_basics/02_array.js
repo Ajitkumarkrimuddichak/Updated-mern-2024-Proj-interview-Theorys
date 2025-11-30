@@ -45,12 +45,11 @@ let score2 = 200;
 let score3 = 300;
 //console.log(Array.of(score1, score2, score3)); //Array conver
 
-/*Note:- Higher-order array methods in JavaScript :-
+/* Note:- array Higher-order  methods in JavaScript :-
 
-1) array.forEach(function(currentValue, index, array) { // your code here });
-2) array.map(function(currentValue, index, array) { // return element for newArray });
-3) array.filter(function(currentValue, index, array) {// return true to keep the element, false otherwise });
-4) array.reduce(function(accumulator, currentValue, index, array) { // return new accumulator value }, initialValue);
-5) array.find(function(currentValue, index, array) { // return true to return the current element });
-
+1) array.forEach(function(currentValue, index, array) {// forEach method calls a function for each element in an array. });
+2) array.map(function(currentValue, index, array) {// map applies a function to each element of an array and returns a new array. not modify the original array, skips empty elements.});
+3) array.filter(function(currentValue, index, array) {// filter returns a new array containing only the elements that pass a given condition.not change original array,skips empty elements. });
+4) array.reduce(function(accumulator, currentValue, index, array) {// reduce applies a function to all array elements and returns one final value.not change original array, skips empty elements. }, initialValue);
+5) array.find(function(currentValue, index, array) {// find searches an array and returns the first item that matches a condition. });
 */
