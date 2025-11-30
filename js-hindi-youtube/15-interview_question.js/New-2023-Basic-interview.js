@@ -454,26 +454,19 @@ factorial(5);*/
 // console.log(`swap value A = ${a} and B = ${b}`);
 
 //(or)
-// var a = 10,
-//   b = 20;
+/*
+let x = 20, y = 10;
+x = x - y;
+y = x + y;
+console.log(`swap value X = ${x} and Y = ${y}`);
+*/
+
+//(or)
+// var a = 10, b = 20;
 // b = a + b - (a = b);
 // console.log(`swap number A = ${a} And B = ${b}`);
 
-//(or) Swap two number and find Even or odd number
-// var a = 11,
-//   b = 10;
-// b = a + b - (a = b);
-// if (a !== b) {
-//   console.log(`swap number And Find Even or Odd number A = ${a} B = ${b}`);
-// }
-// if (a % 2 == 0) {
-//   console.log(`swap number And Find Even number A = ${a}`);
-// }
-// if (b % 2 != 0) {
-//   console.log(`swap number And Find Odd number B = ${b}`);
-// }
-
-//(13)Stare Pattern program
+//(13) Stare Pattern program
 /*let str = "";
 for (let i = 1; i <= 5; i++) {
   for (let j = 1; j <= 5; j++) {
@@ -1090,7 +1083,6 @@ console.log(newAr);*/
 console.log(duplicates([2, 3, 5, 2, 4, 3, 11]));
 */
 
-
 //(27) Find Add an element to end of Array without Method Used
 // var arr = [1, 2];
 // var arr = [...arr, 3];
@@ -1327,6 +1319,13 @@ console.log(sum);*/
 const nestedArray = [1, [2, 3], [4, [5, 6]]];
 const flattenedArray = flattenArray(nestedArray);
 console.log(flattenedArray); // Outputs: [1, 2, 3, 4, [5, 6]]*/
+
+// (or)
+/*
+const another_array = [1, 2, 3, [4, 5, 6], 7, [6, 7, [4, 5]]];
+const real_another_array = another_array.flat(Infinity); // single Array conver "flat() method" Infinity tak dekh lijiye aap chahe to only for 2 arrays ko khali merge kara sakate hai
+console.log(real_another_array); // Actually Infinity to replace Number Ex:- 1,2... kitana array ko merge karana hai
+*/
 
 //(or)
 //let arr = [[1, 2],[3, 4],[5, [7, 8, 9]],];
