@@ -1075,12 +1075,35 @@ console.log(newAr);*/
 // }
 // console.log(duplicates([2, 3, 5, 2, 4, 3, 11]));
 
-//(** vvvvv**) Remoded duplicates value in array
+//(** vvvvv**) Remoded duplicates value in array ****************************
  /*
  function duplicates(arr) {
   return [...new Set(arr.filter((e) => e))];
 }
 console.log(duplicates([2, 3, 5, 2, 4, 3, 11]));
+*/
+
+//(or)
+/*
+let rr = [1,2,3,4,5,4,5];
+let uniqueValues = [...new Set(rr)];
+console.log(uniqueValues);
+*/
+
+// (or)
+/*
+let arr = [1,2,3,4,5,4,5];
+let newArr = [];
+for (let i=0; i<arr.length; i++){
+  let count = 0;
+  for (let j=0; j<newArr.length; j++){
+    if(arr[i] === newArr[j]) count = 1;
+  }
+  if(count === 0){
+    newArr[newArr.length] = arr[i]; 
+  }
+}
+console.log(newArr);
 */
 
 //(27) Find Add an element to end of Array without Method Used
