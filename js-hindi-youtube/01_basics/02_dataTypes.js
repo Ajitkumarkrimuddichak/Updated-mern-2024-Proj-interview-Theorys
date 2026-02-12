@@ -39,12 +39,12 @@ Call by Reference ,used in shallow copies ****/
  - JavaScript copies the actual value into the function’s argument.
  - Any changes inside the function don’t affect the original variable.
 **/
-let a = 10;
-function changeValue(num) {
+let A = 10;
+function changeValue(num) { // num :- Parameter
   num = 20; // changes local copy
 }
-console.log(changeValue(a)); // undefined
-console.log(a); // Output: 10 original value not affected)
+console.log(changeValue(A)); // undefined // A:-Argument
+console.log(A); // Output: 10 original value not affected)
 
 // Deep Copy
 /*
