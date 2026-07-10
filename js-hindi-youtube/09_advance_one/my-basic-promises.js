@@ -124,3 +124,36 @@ async function display() {
   console.log(data);
 }
 display();*/
+
+// (v) Write a JavaScript program to execute multiple promises using Promise.all() and print all resolved values using async/await.
+function asynchronous_operational_method() {
+  let Fpromise = new Promise((resolve, reject) => resolve("Hello"));
+
+  let Spromise = new Promise((resolve, reject) => {
+    setTimeout(() => {
+      resolve("Hi Ram");
+    }, 1000);
+  });
+
+  let combined_promise = Promise.all([Fpromise, Spromise]);
+  return combined_promise;
+}
+
+async function display() {
+  let data = await asynchronous_operational_method();
+  return data;
+}
+
+display()
+  .then((data) => {
+    console.log("All Data:", data);
+    console.log("First Promise:", data[0]);
+    console.log("Second Promise:", data[1]);
+    console.log("Promise resolved successfully.");
+  })
+  .catch((error) => {
+    console.log("Error:", error);
+  })
+  .finally(() => {
+    console.log("Promise execution completed.");
+  });
