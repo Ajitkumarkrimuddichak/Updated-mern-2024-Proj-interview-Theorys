@@ -51,7 +51,7 @@ console.log(A); // Output: 10 original value not affected)
 A deep copy creates a completely independent clone — all nested objects and arrays are duplicated.
 Changes in one object don’t affect the other.
 Ways to make a deep copy:-
-- JSON.parse(JSON.stringify(obj))
+- JSON.parse(JSON.stringify(obj))  // - JSON.stringify(obj) converts the object into a JSON string.   - JSON.parse(...) convert JSON string back into a JavaScript object.   Note:- This method can lose values such as undefined, functions, and Date object types. For modern JavaScript, structuredClone(obj) is generally a better choice for deep copying supported values.
 - structuredClone(obj) (modern way)
 - Using libraries like Lodash’s cloneDeep()
 */
