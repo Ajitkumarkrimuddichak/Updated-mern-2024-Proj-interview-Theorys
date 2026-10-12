@@ -99,6 +99,8 @@ let shallowCopy = { ...person };
 shallowCopy.address.city = "Mumbai";
 console.log(person.address.city); // Output: "Mumbai"
 
+// What is Difference between Stack and Heap Memory :- Stack memory is generally faster for simple operations, while heap memory is used for dynamic data storage.
+
 
 // What is Arithmetic Instruction ?
 // Ans:- An Instruction which is used to manipulate data using operators is known as Arithmetic Instruction.
