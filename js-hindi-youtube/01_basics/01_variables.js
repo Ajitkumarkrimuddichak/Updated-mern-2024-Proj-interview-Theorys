@@ -1,6 +1,7 @@
-const accountId = 144553; //value overide and Re-declaration is not possible.Block level scope and let,const does't adds window object
-let accountEmail = "ajit@google.com"; // value overide is possible and Re-declaration is not possible.Block level scope and let,const does't adds window object
 var accountPassword = "12345"; // value overide and Re-declaration is possible. functional level scope and var adds itself to the window object.
+let accountEmail = "ajit@google.com"; // value overide is possible and Re-declaration is not possible.Block level scope and let,const does't adds window object
+const accountId = 144553; //value overide and Re-declaration is not possible.Block level scope and let,const does't adds window object
+
 accountCity = "Bihar"; // variable value defined
 let accountState; //JS undefined means a variable has been declared but not assigned value.
 
