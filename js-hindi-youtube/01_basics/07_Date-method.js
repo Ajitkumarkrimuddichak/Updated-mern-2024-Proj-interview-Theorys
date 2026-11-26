@@ -69,6 +69,7 @@ let myDate = new Date();
 //   newDate.toLocaleTimeString("en-IN")
 // );
 
+
 // const newDate = new Date();
 // const formattedDate = newDate.toLocaleString("en-IN", {
 //   weekday: "long",
@@ -79,3 +80,25 @@ let myDate = new Date();
 //   minute: "2-digit",
 // });
 // console.log(formattedDate);
+
+
+// const today = new Date();
+// const deliveryDate = new Date("2026-12-10");
+// if (deliveryDate > today) {
+//   console.log("Delivery is pending");
+// } else {
+//   console.log("Delivery date has passed");
+// }
+
+
+// const startDate = new Date("2026-11-01");
+// const endDate = new Date("2026-12-01");
+// const difference = endDate.getTime() - startDate.getTime();
+// console.log(difference);
+// const days = difference / (1000 * 60 * 60 * 24);
+// console.log(days);
+
+
+// const date = new Date();
+// date.setDate(30);
+// console.log(date);
