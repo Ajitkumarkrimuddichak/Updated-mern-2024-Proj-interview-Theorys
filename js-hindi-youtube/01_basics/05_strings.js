@@ -22,8 +22,8 @@ const gameName = new String("Ajit-hc-com"); //string declaration karane ka secon
 // console.log(gameName.search("hc"));
 // console.log(gameName.trim()); //space remove
 // console.log(gameName.replace("hc", "kumar"));
-// console.log(gameName.slice(2, 5));
-// console.log(gameName.split("A"));
+// console.log(gameName.slice(2, 5)); // Returns a new string without modifying the original string.
+// console.log(gameName.split("A")); // Converts a string into an array.
 
 const newString = gameName.substring(0, 4);
 //console.log(newString);
