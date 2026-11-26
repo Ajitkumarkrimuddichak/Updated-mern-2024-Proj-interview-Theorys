@@ -1,32 +1,81 @@
-/*****  Dates Methods *****/
+/*****  Dates Methods And Time  *****/
 
+// 1. Current Date
 let myDate = new Date();
+// console.log(myDate);
+// console.log(typeof myDate);
+
+// 2. Date Formatting
 // console.log(myDate.toString());
 // console.log(myDate.toDateString());
 // console.log(myDate.toLocaleString());
-// console.log(typeof myDate);
+// console.log(myDate.toISOString());
 
-// let myCreatedDate = new Date(2023, 0, 23) // JS me Months 0 se start hote hai
-// let myCreatedDate = new Date(2023, 0, 23, 5, 3)
-// let myCreatedDate = new Date("2023-01-14")
-let myCreatedDate = new Date("01-14-2023");
-//console.log(myCreatedDate.toLocaleString());
+// 3. Custom Date
+// let myCreatedDate = new Date(2023, 0, 23);
+// console.log(myCreatedDate.toLocaleString());
 
-let myTimeStamp = Date.now();
-// console.log(myTimeStamp); // mili second value hai
-// console.log(myCreatedDate.getTime()); // compare karana hai to aise hi karate hai
-// console.log(Math.floor(Date.now() / 1000)); // interview // second me convert kiya hai
+// // 4. Date with Time
+// let customDate = new Date(2023, 0, 23, 5, 3);
+// console.log(customDate.toLocaleString());
 
-let newDate = new Date();
-// console.log(newDate);
-// console.log(newDate.getMonth() + 1); //Date se only for month value nikala hai
-// console.log(newDate.getDay()); // Date se only for Day nikala hai
+// // 5. Timestamp
+// let myTimeStamp = Date.now();
+// console.log(myTimeStamp);
+
+// // 6. Get Timestamp of Existing Date
+// console.log(myCreatedDate.getTime());
+
+// // 7. Convert Milliseconds to Seconds
+// console.log(Math.floor(Date.now() / 1000));
+
+// 8. Get Date Values
+// let newDate = new Date();
+// console.log(newDate.getDate());
+// console.log(newDate.getDay());
+// console.log(newDate.getMonth() + 1);
+// console.log(newDate.getFullYear());
+
+// 9. Get Time Values
+// console.log(newDate.getHours());
+// console.log(newDate.getMinutes());
+// console.log(newDate.getSeconds());
+
+// 10. Template Literals
+// console.log(`Today is ${newDate.toDateString()}`);
+
+// 11. Custom Weekday
+// let fullDayOfWeek = newDate.toLocaleString("en-IN", {
+//   weekday: "long",
+// });
+// console.log("Today is:", fullDayOfWeek);
+
+// 12. Custom Month
+// let monthName = newDate.toLocaleString("en-IN", {
+//   month: "long",
+// });
+// console.log("Month:", monthName);
+
+
+// ************* Example *************
+// const newDate = new Date();
 // console.log(
-//   `${newDate.getDay()} and the time ${newDate.getMonth()} and the month`
+//   newDate.toLocaleString("en-IN")
+// );
+// console.log(
+//   newDate.toLocaleDateString("en-IN")
+// );
+// console.log(
+//   newDate.toLocaleTimeString("en-IN")
 // );
 
-//Custimage value defind
-let fullDayOfWeek = newDate.toLocaleString("default", {
-  weekday: "long",
-});
-console.log("Today is:", fullDayOfWeek);
+// const newDate = new Date();
+// const formattedDate = newDate.toLocaleString("en-IN", {
+//   weekday: "long",
+//   year: "numeric",
+//   month: "long",
+//   day: "numeric",
+//   hour: "2-digit",
+//   minute: "2-digit",
+// });
+// console.log(formattedDate);
